@@ -22,15 +22,17 @@ html, body {
 }
 
 :root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
-  --circle-size: 80%;
+  --color-bg1: #3C1E8E;
+  --color-bg2: #242845;
+  --color1: 35, 247, 255;
+  --color2: 255, 146, 66;
+  --color3: 244, 89, 63;
+  --color4: 26, 154, 175;
+  --color5: 60, 30, 142;
+  --color-interactive: 35,
+    247,
+    255;
+  --circle-size: 120%;
   --blending: hard-light;
 }
 
@@ -102,7 +104,7 @@ html, body {
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: center center;
-    animation: moveVertical 30s ease infinite;
+    animation: moveVertical 40s ease infinite;
 
     opacity: 1;
   }
@@ -118,7 +120,7 @@ html, body {
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% - 400px);
-    animation: moveInCircle 20s reverse infinite;
+    animation: moveInCircle 30s reverse infinite;
 
     opacity: 1;
   }
@@ -134,7 +136,7 @@ html, body {
     left: calc(50% - var(--circle-size) / 2 - 500px);
 
     transform-origin: calc(50% + 400px);
-    animation: moveInCircle 40s linear infinite;
+    animation: moveInCircle 50s linear infinite;
 
     opacity: 1;
   }
@@ -150,7 +152,7 @@ html, body {
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% - 200px);
-    animation: moveHorizontal 40s ease infinite;
+    animation: moveHorizontal 50s ease infinite;
 
     opacity: 0.7;
   }
@@ -166,7 +168,7 @@ html, body {
     left: calc(50% - var(--circle-size));
 
     transform-origin: calc(50% - 800px) calc(50% + 200px);
-    animation: moveInCircle 20s ease infinite;
+    animation: moveInCircle 30s ease infinite;
 
     opacity: 1;
   }
